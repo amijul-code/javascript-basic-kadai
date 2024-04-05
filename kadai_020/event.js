@@ -1,6 +1,6 @@
-const btn = document.getElementsById('btn');
+const btn = document.getElementById('btn');
 
-const text = document.getElementsById('text');
+const text = document.getElementById('text');
 
 btn.addEventListener('click',() => {
  const childList = document.createElement('li');
